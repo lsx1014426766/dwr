@@ -1,0 +1,6 @@
+1、在WEB工程的lib目录中导入dwr、log4j类库包（所有jar文件），在src目录下创建log4j的配置文件log4j.properties。
+2、在web.xml中配置DWRServlet，映射地址为/dwr/*。
+3、创建DWR调用的Java文件，实现需调用的方法。
+4、创建一个dwr.xml配置文件，配置Java类以及其它参数。
+5、在jsp页面中加入dwr.xml中JavaScript属性值.js、engine.js和util.js文件。
+6、在jsp页面中创建两个函数，一个是我们要触发的事件，一个是回调函数（回调函数中的data参数是调用Java方法的返回值）。
